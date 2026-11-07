@@ -1,0 +1,10 @@
+{
+  "name": "logicforge-studio",
+  "version": "1.0.0",
+  "description": "In-browser Xilinx-grade RTL elaboration, logic gate synthesis, schematic visualizer, and digital waveform suite.",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "license": "MIT"
+}
