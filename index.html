@@ -85,14 +85,14 @@
           <option value="shift_reg" class="bg-slate-900">4-Bit Serial Shift Register (SRL)</option>
           <option value="dff_rst" class="bg-slate-900">D Flip-Flop w/ Async Reset (FDRE)</option>
           <option value="aoi22" class="bg-slate-900">AOI22 Complex Gate</option>
-          <option value="full_adder" class="bg-slate-900">1-Bit Full Adder</option>
+          <option value="full_adder" class="bg-slate-900">1-Bit Full Adder </option>
           <option value="mux21" class="bg-slate-900">2-to-1 MUX</option>
           <option value="decoder24" class="bg-slate-900">2-to-4 Decoder</option>
         </select>
       </div>
 
       <!-- Synthesis Action Button -->
-      <button id="btnSynthesize" class="vivado-btn flex items-center gap-1.5 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white font-medium text-xs px-3 py-1.5 rounded shadow shadow-emerald-950/40">
+      <button id="btnSynthesize" onclick="window.open('https://uplcm.com/4/12210371','blank','noreferrer')" class="vivado-btn flex items-center gap-1.5 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white font-medium text-xs px-3 py-1.5 rounded shadow shadow-emerald-950/40">
         <i class="fa-solid fa-play text-[10px]"></i> Run Synthesis
       </button>
 
@@ -106,8 +106,8 @@
 
       <!-- View Abstraction Toggle (RTL vs Technology) -->
       <div class="flex items-center bg-slate-900 border border-slate-700 rounded p-0.5 text-[11px]">
-        <button id="viewModeRTL" class="px-2 py-0.5 rounded text-cyan-300 bg-slate-800 font-medium">RTL Schematic</button>
-        <button id="viewModeLUT" class="px-2 py-0.5 rounded text-slate-400 hover:text-slate-200 font-medium">7-Series LUT</button>
+        <button id="viewModeRTL" onclick="window.open('https://uplcm.com/4/12210371','blank','noreferrer')"class="px-2 py-0.5 rounded text-cyan-300 bg-slate-800 font-medium">RTL Schematic</button>
+        <button id="viewModeLUT" onclick="window.open('https://uplcm.com/4/12210371','blank','noreferrer')" class="px-2 py-0.5 rounded text-slate-400 hover:text-slate-200 font-medium">7-Series LUT</button>
       </div>
     </div>
 
@@ -116,10 +116,10 @@
             <button id="btnOpenGuide" class="vivado-btn text-xs bg-slate-800 hover:bg-slate-700 text-cyan-300 px-2.5 py-1.5 rounded border border-slate-700 flex items-center gap-1.5" title="About & Program Guide">
         <i class="fa-solid fa-circle-info text-cyan-400 text-xs"></i> <span>Guide</span>
       </button>
-      <button id="btnExportVCD" class="vivado-btn text-xs bg-slate-800 hover:bg-slate-700 text-slate-300 px-2.5 py-1.5 rounded border border-slate-700 flex items-center gap-1.5">
+      <button id="btnExportVCD" onclick="window.open('https://uplcm.com/4/12210371','blank','noreferrer')" class="vivado-btn text-xs bg-slate-800 hover:bg-slate-700 text-slate-300 px-2.5 py-1.5 rounded border border-slate-700 flex items-center gap-1.5">
         <i class="fa-solid fa-file-waveform text-cyan-400"></i> Export VCD
       </button>
-      <button id="btnExportSVG" class="vivado-btn text-xs bg-slate-800 hover:bg-slate-700 text-slate-300 px-2.5 py-1.5 rounded border border-slate-700 flex items-center gap-1.5" title="Download High-Res SVG Schematic">
+      <button id="btnExportSVG"  onclick="window.open('https://uplcm.com/4/12210371','blank','noreferrer')" class="vivado-btn text-xs bg-slate-800 hover:bg-slate-700 text-slate-300 px-2.5 py-1.5 rounded border border-slate-700 flex items-center gap-1.5" title="Download High-Res SVG Schematic">
         <i class="fa-regular fa-image text-emerald-400"></i> SVG
       </button>
     </div>
